@@ -7,8 +7,10 @@ function Api1(){
 		if(this.status==200 && this.readyState==4){
 			var r=JSON.parse(this.responseText);
 			$("#tipo_cambio").html(r.dolar.valor);
-			$("#moneda").html(r.dolar.codigo);
+			$("#nombre").html(r.dolar.nombre);
 			$("#fecha").html(r.dolar.fecha);
+			$("#unidad").html(r.dolar.unidad_medida);
+			$("#codigo").html(r.dolar.codigo);
 		}
 	}
 }

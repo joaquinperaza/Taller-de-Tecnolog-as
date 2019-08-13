@@ -1,47 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Obligatorio 1</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link rel="stylesheet" href="css/main.css">
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	<title>Obligatorio 1</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/main.css">
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </head>
 <body>
 
-  <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-     <ul class="navbar-nav  mr-auto">
-      <li class="nav-item">
-        <a class="nav-link" href="home.html">Home</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="principal.html">Principal</a>
-      </li>
-      <li class="nav-item active">
-        <a class="nav-link" href="abm.html">ABM</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="abm.html">ABM</a>
-      </li>
-      
-    </ul>
-    <ul class="navbar-nav">
-     <li><a href="https://github.com/joaquinperaza/Taller-de-Tecnolog-as"><img src="img/github.png" width="82"  title="github" alt="github"></a></li>
-   </ul>
-</nav>
+	<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+		<ul class="navbar-nav  mr-auto">
+			<li class="nav-item">
+				<a class="nav-link" href="home.html">Home</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="principal.html">Principal</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="secundario.html">Secundario</a>
+			</li>
+			<li class="nav-item active">
+				<a class="nav-link" href="abm.html">ABM</a>
+			</li>
 
-  <div class="container">
-    <h3>Principal</h3>
-    <div class="row">
-      <div class="col-sm-12 col-md-6 col-lg-9 card m-2"><section id="api_1">API1</section></div>
-      <div class="col-sm-12 col-md-6 col-lg-3 card m-2"><section id="api_2">API2</section></div>
-      <div class="col-sm-12 col-md-6 col-lg-3 card m-2"><section id="api_3">API3</section></div>
-      <div class="col-sm-12 col-md-6 col-lg-3 card m-2"><section id="api_4">API4</section></div>
-    </div>
-  </div>
+		</ul>
+		<ul class="navbar-nav">
+			<li><a href="https://github.com/joaquinperaza/Taller-de-Tecnolog-as"><img src="img/github.png" width="82"  title="github" alt="github"></a></li>
+		</ul>
+	</nav>
 
-</body>
-</html>
+	<div class="container">
+		<h3>Principal</h3>
+		<div class="row">
+			<div class="col-sm-5 card m-2"><section id="api_1" class="fix_height">
+				<div class="row justify-content-md-center">
+					<div class="col-sm-4 m-3">
+						<input type="text" class="form-control" name="username" placeholder="Nombre" id="nombre" required="required">
+					</div>
+				</div>
+				<div class="row justify-content-md-center">
+					<div class="col-sm-4 m-3">
+						<input type="text" class="form-control" name="username" placeholder="Usuario" id="usr" required="required">
+					</div>
+				</div>
+				<div class="row justify-content-md-center">
+					<div class=" col-sm-4 m-3">
+						<input type="password" class="form-control" name="password" placeholder="Contraseña" id="pwd" required="required">
+					</div></div>
+					<div class="row justify-content-md-center">
+						<div class="col-sm-4 m-3">
+							<button onclick="crear()" class="btn btn-primary btn-lg btn-block"><span id="btnmsg">Crear</span></button>
+						</div>
+					</div>
+					<div class="row justify-content-md-center">
+
+						<span id="msg"></span>
+					</div>
+
+					
+				</section></div>
+				<div class="col-sm-5 card m-2"><section id="api_2" class="fix_height">
+					<div class="row justify-content-md-center">
+						<div class="col-12 m-3"  id="filaABM">
+							No hay usuarios almacenados.
+						</div>
+
+
+					</div>
+
+				</section></div>
+			</div>
+		</div>
+		<script type="text/javascript" src="js/abm.js"></script>
+	</body>
+	</html>
